@@ -543,10 +543,24 @@
 		
 
 														.content{
-					margin-top: -100px;
+					margin-top: -40px;
 					}
 				
 					
+					.logo_wrapper,
+			.side_menu_button,
+			.shopping_cart_inner
+			{
+			height: 40px;
+			}
+			.content.content_top_margin{
+			margin-top: 40px !important;
+			}
+
+			header:not(.centered_logo) .header_fixed_right_area {
+			line-height: 40px;
+			}
+
 								
 		
 		
@@ -569,7 +583,10 @@
 			}
 		
 		
-				
+							nav.main_menu > ul > li > a{
+			line-height: 40px;
+			}
+		
 		
 		
 					nav.main_menu > ul > li > a{
@@ -580,7 +597,9 @@
 					nav.main_menu ul li:hover a {
 			 color: #000000; 			}
 		
-		
+					nav.main_menu ul li.active a {
+			color: #020202			}
+			
 		
 
 		
@@ -605,6 +624,12 @@
 		
 		
 		
+					h1,
+			.h1,
+			.title h1,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h1.elementor-heading-title{
+										font-family: 'Lustria', sans-serif;
+						font-size: 32px; 																		}
 				
 		
 																
@@ -777,17 +802,7 @@
 								
 		
 																																																				
-							.side_menu_button > a,
-			.mobile_menu_button span,
-			.fixed_top_header .side_menu_button > a,
-			.fixed_top_header .popup_menu .line,
-			.fixed_top_header .mobile_menu_button span{ color: #000000; }
-
-			.popup_menu .line,
-			.popup_menu .line:after, .popup_menu .line:before{
-			background-color: #000000;
-			}
-		
+				
 		
 		.vertical_menu_float .menu-item .second{
 		left: calc(100% + 30px); /*because of the padding*/
@@ -823,6 +838,10 @@
 		
 		
 		
+								.popup_menu_holder{
+			background-color: rgba(241,237,230,0.95);
+			}
+
 		
 		
 		

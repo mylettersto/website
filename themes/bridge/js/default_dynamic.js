@@ -10,7 +10,8 @@
 		var paspartu_width_init = 0.02;
         var add_for_admin_bar = jQuery('body').hasClass('admin-bar') ? 32 : 0;
 
-																
+						header_height = 40;
+																	
 		var logo_height = 130; // proya logo height
 		var logo_width = 280; // proya logo width
 								header_top_height = 0;

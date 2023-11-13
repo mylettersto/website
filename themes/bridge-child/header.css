@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1000px) {
+  .mobile_menu_button {
+    display: none;
+  }
+
+  .logo_wrapper {
+    left: 0;
+  }
+
+  .q_logo a {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .header_bottom .container_inner,
+  .header_bottom .logo_wrapper {
+    padding: 2rem 0;
+  }
+}
