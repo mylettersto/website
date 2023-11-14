@@ -834,12 +834,21 @@
 		
 		
 		
+			nav.popup_menu ul li a,
+			nav.popup_menu ul li h6{
+			 color: #000000; 																		 text-transform: initial; 						}
+		
+					.popup_menu.opened .line:after,
+			.popup_menu.opened .line:before{
+			background-color: #000000;
+			}
+
 		
 		
 		
 		
 								.popup_menu_holder{
-			background-color: rgba(241,237,230,0.95);
+			background-color: rgba(255,255,255,0.95);
 			}
 
 		

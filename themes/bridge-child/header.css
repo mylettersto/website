@@ -10,11 +10,19 @@
   .q_logo a {
     left: 0;
   }
+  
+  .header_bottom_right_widget_holder {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
   .header_bottom .container_inner,
   .header_bottom .logo_wrapper {
     padding: 2rem 0;
+  }
+
+  .side_menu_button {
+    display: none;
   }
 }
