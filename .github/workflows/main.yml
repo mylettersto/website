@@ -13,3 +13,5 @@ jobs:
       with:
         WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
         WPE_ENV: mylettersto
+        SRC_PATH: "."
+        REMOTE_PATH: "wp-content/"
