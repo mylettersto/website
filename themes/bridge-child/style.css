@@ -9,7 +9,7 @@ Template: bridge
 */
 @import url("../bridge/style.css");
 @import url("./buttons.css");
-@import url("./header.css");
+@import url("./header.css?v=1");
 
 @media only screen and (max-width: 1000px) {
   .footer_bottom_holder .footer_bottom ul.menu li a {
