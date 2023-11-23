@@ -1,2 +1,5 @@
 .DS_Store
 uploads/
+plugins/
+upgrade/
+upgrade-temp-backup/

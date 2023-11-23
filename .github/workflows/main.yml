@@ -15,3 +15,4 @@ jobs:
         WPE_ENV: mylettersto
         SRC_PATH: "."
         REMOTE_PATH: "wp-content/"
+        FLAGS: -azvr --inplace --delete --exclude=".*" --exclude-from=.deployignore
