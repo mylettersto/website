@@ -17,6 +17,10 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .header_bottom {
+    padding: 0;
+  }
+
   .header_bottom .container_inner,
   .header_bottom .logo_wrapper {
     padding: 2rem 0;
@@ -24,5 +28,11 @@
 
   .side_menu_button {
     display: none;
+  }
+
+  .header_inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
 }

@@ -507,7 +507,7 @@
 				
 					body{
 											font-family: 'Inter', sans-serif;
-									 font-size: 12px; 						}
+															}
 							body,
 				.wrapper,
 				.content,
@@ -628,63 +628,38 @@
 			.h1,
 			.title h1,
             body.qode-overridden-elementors-fonts .elementor-widget-heading h1.elementor-heading-title{
-										font-family: 'Lustria', sans-serif;
-						font-size: 32px; 																		}
+				color: #2f2e41; 							font-family: 'Lustria', sans-serif;
+						font-size: 48px; 						font-style: normal; 			font-weight: 400; 									}
 				
 		
-																
+											h2,
+			.h2,
+			h2 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {
+			color: #2f2e41; 							font-family: 'Lustria', sans-serif;
+						font-size: 32px; 						font-style: normal; 			font-weight: 400; 									}
+							h3,
+			.h3,
+			h3 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h3.elementor-heading-title {
+			color: #2f2e41; 							font-family: 'Lustria', sans-serif;
+												font-style: normal; 			font-weight: 400; 									}
+							h4,
+			.h4,
+			h4 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h4.elementor-heading-title {
+			color: #2f2e41; 							font-family: 'Lustria', sans-serif;
+												font-style: normal; 			font-weight: 400; 									}
+							h5,
+			.h5,
+			h5 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h5.elementor-heading-title,
+			.q_icon_with_title .icon_text_holder h5.icon_title{
+			color: #2f2e41; 							font-family: 'Lustria', sans-serif;
+												font-style: normal; 			font-weight: 400; 									}
+				
 
-					p,
-            body.qode-overridden-elementors-fonts .elementor-widget-heading p.elementor-heading-title {
-									font-size: 12px;																		}
-			.filter_holder ul li span,
-			blockquote h5,
-			.q_social_icon_holder .simple_social,
-			.header-widget.widget_nav_menu ul.menu li a,
-			.side_menu a,
-			.side_menu li,
-			.side_menu span,
-			.side_menu p,
-			.side_menu .widget.widget_rss li a.rsswidget,
-			.side_menu #wp-calendar caption,
-			.side_menu #wp-calendar th,
-			.side_menu #wp-calendar td,
-			aside .widget #lang_sel_list li a,
-			aside .widget #lang_sel li a,
-			aside .widget #lang_sel_click li a,
-			.wpb_widgetised_column .widget #lang_sel_list li a,
-			.wpb_widgetised_column .widget #lang_sel li a,
-			.wpb_widgetised_column .widget #lang_sel_click li a,
-            .elementor-widget.elementor-widget-sidebar .widget #lang_sel_list li a,
-            .elementor-widget.elementor-widget-sidebar .widget #lang_sel li a,
-            .elementor-widget.elementor-widget-sidebar .widget #lang_sel_click li a,
-			section.side_menu #lang_sel_list li a,
-			section.side_menu #lang_sel li a,
-			section.side_menu #lang_sel_click li a,
-			footer #lang_sel_list li a,
-			footer #lang_sel li a,
-			footer #lang_sel_click li a,
-			footer #lang_sel_list.lang_sel_list_horizontal a,
-			footer #lang_sel_list.lang_sel_list_vertical a,
-			.side_menu #lang_sel_list.lang_sel_list_horizontal a,
-			.side_menu #lang_sel_list.lang_sel_list_vertical a,
-			#lang_sel_footer a{
-						}
-			.header_top #lang_sel > ul > li > a,
-			.header_top #lang_sel_click > ul > li> a,
-			footer #lang_sel ul li a,
-			footer #lang_sel ul ul a,
-			footer #lang_sel_click ul li a,
-			footer #lang_sel_click ul ul a,
-			footer #lang_sel_click ul ul a span,
-			section.side_menu #lang_sel ul li a,
-			section.side_menu #lang_sel ul ul a,
-			section.side_menu #lang_sel ul ul a:visited,
-			section.side_menu #lang_sel_click > ul > li > a,
-			section.side_menu #lang_sel_click ul ul a,
-			section.side_menu #lang_sel_click ul ul a:visited{
-						}
-									
+						
 
 		
 				
@@ -970,15 +945,29 @@
 			.woocommerce-page input[type="submit"],
 			.woocommerce .button
 			{
-						
+				color: #ffffff; 							font-family: 'Inter', sans-serif;
 			
-																																		text-transform: initial; 									}
+			
+																font-weight: 400; 				background-color: #2f2e41; 				border-radius: 100px; 				-moz-border-radius: 100px; 				-webkit-border-radius: 100px; 							text-transform: initial; 									}
 
 			.qode-qbutton-main-color {
-																									text-transform: initial; 			}
+							font-family: 'Inter', sans-serif;
+																			font-weight: 400; 							text-transform: initial; 			}
 
 		
 		
+					.qbutton:hover,
+			#submit_comment:hover,
+			.load_more a:hover,
+			.blog_load_more_button a:hover,
+			.post-password-form input[type='submit']:hover,
+			input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
+			.woocommerce table.cart td.actions input[type="submit"]:hover,
+			.woocommerce input#place_order:hover,
+			.woocommerce-page input[type="submit"]:hover,
+			.woocommerce .button:hover
+			{
+			 background-color: #000000; 			}
 																
 
 						

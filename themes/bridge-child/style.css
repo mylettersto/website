@@ -14,3 +14,11 @@ Template: bridge
     font-size: 12px;
   }
 }
+
+.container_inner {
+  width: 100%;
+}
+
+.container_inner.page_container_inner {
+  padding: 0 !important;
+}
