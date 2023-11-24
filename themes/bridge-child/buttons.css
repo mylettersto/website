@@ -1,3 +1,13 @@
 .wp-block-button .wp-block-button__link, .wp-block-button.is-style-outline .wp-block-button__link {
   text-transform: initial;
 }
+
+.has-black-color,
+.has-black-color:hover,
+.wp-block-button .wp-block-button__link:hover {
+  border-color: var(--mlt-colour-secondary) !important;
+}
+  
+.has-black-background-color {
+  background-color: var(--mlt-colour-secondary) !important;
+}

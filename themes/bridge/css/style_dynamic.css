@@ -421,7 +421,7 @@
 			.qode-advanced-tabs.qode-advanced-horizontal-tab .qode-advanced-tabs-nav li.ui-state-active a,
 			.qode-advanced-tabs.qode-advanced-horizontal-tab .qode-advanced-tabs-nav li.ui-state-hover a
 			{
-			color: #ffffff;
+			color: #2f2e41;
 			}
 
 			.qbutton,
@@ -446,7 +446,7 @@
 				.woocommerce ul.products li.product .added_to_cart,
 						.carousel-inner .item.dark .slider_content .text .qbutton,
 			input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
-			border-color: #ffffff;
+			border-color: #2f2e41;
 			}
 
 			.ajax_loader .pulse,
@@ -469,7 +469,7 @@
 							, .woocommerce .product .onsale,
 				.woocommerce .product .single-onsale
 			 {
-			background-color: #ffffff;
+			background-color: #2f2e41;
 			}
 
 
@@ -637,7 +637,7 @@
 			h2 a,
             body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {
 			color: #2f2e41; 							font-family: 'Lustria', sans-serif;
-						font-size: 32px; 						font-style: normal; 			font-weight: 400; 									}
+						font-size: 32px; 						font-style: normal; 			font-weight: 400; 						text-transform: initial; 			}
 							h3,
 			.h3,
 			h3 a,
@@ -777,7 +777,27 @@
 								
 		
 																																																				
-				
+							.side_menu_button > a,
+			.mobile_menu_button span,
+			.fixed_top_header .side_menu_button > a,
+			.fixed_top_header .popup_menu .line,
+			.fixed_top_header .mobile_menu_button span{ color: #2f2e41; }
+
+			.popup_menu .line,
+			.popup_menu .line:after, .popup_menu .line:before{
+			background-color: #2f2e41;
+			}
+					.side_menu_button > a:hover,
+			.mobile_menu_button span:hover,
+			.popup_menu:hover .line,
+			.popup_menu:hover .line:after,
+			.popup_menu:hover .line:before{ color: #2f2e41; }
+
+			.popup_menu:hover .line,
+			.popup_menu:hover .line:after, .popup_menu:hover .line:before{
+			background-color: #2f2e41;
+			}
+		
 		
 		.vertical_menu_float .menu-item .second{
 		left: calc(100% + 30px); /*because of the padding*/
@@ -811,11 +831,11 @@
 		
 			nav.popup_menu ul li a,
 			nav.popup_menu ul li h6{
-			 color: #000000; 																		 text-transform: initial; 						}
+			 color: ##2F2E41; 																		 text-transform: initial; 						}
 		
 					.popup_menu.opened .line:after,
 			.popup_menu.opened .line:before{
-			background-color: #000000;
+			background-color: ##2F2E41;
 			}
 
 		

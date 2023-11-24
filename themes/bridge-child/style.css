@@ -9,10 +9,24 @@ Template: bridge
 */
 @import url("../bridge/style.css");
 
-@media only screen and (max-width: 1000px) {
-  .footer_bottom_holder .footer_bottom ul.menu li a {
-    font-size: 12px;
-  }
+:root {
+  --mlt-max-width: 1140px;
+  
+
+  /* Spacing */
+  --mlt-spacing-xs: 0.25rem;
+  --mlt-spacing-sm: 0.5rem;
+  --mlt-spacing-md: 1rem;
+  --mlt-spacing-lg: 2rem;
+  --mlt-spacing-xl: 4rem;
+
+  /* Colours */
+  --mlt-colour-primary: #F1EDE6;
+  --mlt-colour-secondary: #2F2E41;
+
+  /* Fonts */
+  --mlt-font-size-caption: 0.75rem;
+  --mlt-font-size-body: 1rem;
 }
 
 .container_inner {
@@ -21,4 +35,10 @@ Template: bridge
 
 .container_inner.page_container_inner {
   padding: 0 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer_bottom_holder .footer_bottom ul.menu li a {
+    font-size: var(--mlt-font-size-caption);
+  }
 }

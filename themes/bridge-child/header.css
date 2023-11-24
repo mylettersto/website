@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 1000px) {
   .mobile_menu_button {
     display: none;
@@ -23,7 +24,7 @@
 
   .header_bottom .container_inner,
   .header_bottom .logo_wrapper {
-    padding: 2rem 0;
+    padding: var(--mlt-spacing-lg) 0;
   }
 
   .side_menu_button {
@@ -31,8 +32,8 @@
   }
 
   .header_inner {
-    max-width: 1440px;
+    max-width: var(--mlt-max-width);
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 var(--mlt-spacing-md);
   }
 }
