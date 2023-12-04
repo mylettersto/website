@@ -15,3 +15,13 @@ if(!function_exists('bridge_qode_child_theme_enqueue_scripts')) {
 
 	add_action('wp_enqueue_scripts', 'bridge_qode_child_theme_enqueue_scripts', 11);
 }
+
+function isLoggedIn() {
+	$profile_id = um_profile_id();
+
+	if ($profile_id === 0) {
+		return false;
+	}
+
+	return true;
+}
