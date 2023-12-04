@@ -37,6 +37,16 @@ Template: bridge
   padding: 0 !important;
 }
 
+body {
+  color: var(--mlt-colour-secondary);
+}
+
+.mlt-body a,
+.mlt-body a:hover {
+  text-decoration: underline;
+  color: var(--mlt-colour-secondary);
+}
+
 @media only screen and (max-width: 1000px) {
   .footer_bottom_holder .footer_bottom ul.menu li a {
     font-size: var(--mlt-font-size-caption);
