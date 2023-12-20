@@ -23,10 +23,16 @@ Template: bridge
   /* Colours */
   --mlt-colour-primary: #F1EDE6;
   --mlt-colour-secondary: #2F2E41;
+  --mlt-colour-accent-dark: #ddd;
 
   /* Fonts */
   --mlt-font-size-caption: 0.75rem;
   --mlt-font-size-body: 1rem;
+
+
+  /* Borders */
+  --mlt-border-radius-small: 4px;
+  --mlt-border-radius-large: 100px;
 }
 
 .container_inner {
@@ -51,4 +57,12 @@ body {
   .footer_bottom_holder .footer_bottom ul.menu li a {
     font-size: var(--mlt-font-size-caption);
   }
+}
+
+body.logged-in .logged-out {
+  display: none;
+}
+
+body:not(.logged-in) .logged-in {
+  display: none;
 }

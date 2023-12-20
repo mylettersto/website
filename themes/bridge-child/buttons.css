@@ -11,3 +11,19 @@
 .has-black-background-color {
   background-color: var(--mlt-colour-secondary) !important;
 }
+
+.wpuf-submit-button {
+  border-style: solid;
+  border-color: var(--mlt-colour-secondary) !important;
+  background-color: var(--mlt-colour-secondary) !important;
+  color: var(--mlt-colour-primary) !important;
+  padding: 1rem 1.5rem;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.wpuf-submit-button:hover {
+  background-color: var(--mlt-colour-primary) !important;
+  color: var(--mlt-colour-secondary) !important;
+  font-weight: bold;
+}
