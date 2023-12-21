@@ -12,7 +12,8 @@
   background-color: var(--mlt-colour-secondary) !important;
 }
 
-.wpuf-submit-button {
+.wpuf-submit-button,
+#wp-submit {
   border-style: solid;
   border-color: var(--mlt-colour-secondary) !important;
   background-color: var(--mlt-colour-secondary) !important;

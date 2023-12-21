@@ -6,15 +6,33 @@ body ul.wpuf-form li .wpuf-label {
   float: none !important;
 }
 
+.wpuf-submit {
+  margin-top: var(--mlt-spacing-lg) !important;
+  margin-bottom: var(--mlt-spacing-lg) !important;
+}
+
 .wpuf-fields,
 .wpuf-fields .textfield,
-.wpuf-fields input {
+.wpuf-fields input:not([type="checkbox"]),
+.login,
+.login input:not([type="checkbox"]),
+.wpuf-registration-form input:not([type="checkbox"]) {
   width: 100% !important;
 }
 
+.login p {
+  margin-bottom: var(--mlt-spacing-md);
+}
+
 .wpuf-fields .textfield,
-.wpuf-fields input {
+.wpuf-fields input:not([type="checkbox"]),
+.login input:not([type="checkbox"]),
+.wpuf-registration-form input:not([type="checkbox"]) {
   padding: var(--mlt-spacing-md) !important;
   border-radius: var(--mlt-border-radius-small);
   border: var(--mlt-colour-accent-dark) 1px solid;
+}
+
+.wpuf-error {
+  margin: 0 0 var(--mlt-spacing-md) !important;
 }

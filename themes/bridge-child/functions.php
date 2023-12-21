@@ -4,6 +4,7 @@ function enqueueCss()
 	wp_register_style('bridge-child', get_stylesheet_directory_uri() . '/style.css');
 	wp_register_style('bridge-child-header', get_stylesheet_directory_uri() . '/header.css', '1.0');
 	wp_register_style('bridge-child-buttons', get_stylesheet_directory_uri() . '/buttons.css', '1.0');
+	wp_register_style('bridge-child-links', get_stylesheet_directory_uri() . '/links.css', '1.0');
 	wp_register_style('bridge-child-footer', get_stylesheet_directory_uri() . '/footer.css', '1.0');
 	wp_register_style('bridge-child-posts', get_stylesheet_directory_uri() . '/posts.css', '1.0');
 	wp_register_style('bridge-child-forms', get_stylesheet_directory_uri() . '/forms.css', '1.0');
@@ -11,6 +12,7 @@ function enqueueCss()
 	wp_enqueue_style('bridge-child');
 	wp_enqueue_style('bridge-child-header');
 	wp_enqueue_style('bridge-child-buttons');
+	wp_enqueue_style('bridge-child-links');
 	wp_enqueue_style('bridge-child-posts');
 	wp_enqueue_style('bridge-child-forms');
 	wp_enqueue_style('bridge-child-footer');
