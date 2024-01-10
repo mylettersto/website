@@ -84,8 +84,9 @@ body .wpuf-menu-item.active a {
       border-bottom: 1px solid var(--mlt-colour-accent-dark);
     }
 
+    th:last-of-type,
     td[data-label="Options: "] {
-      width: 100px;
+      display: none;
     }
   }
 }
