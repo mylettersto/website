@@ -32,5 +32,5 @@ function logoutWithoutConfirm($action)
 	}
 }
 
-add_action('wp_enqueue_scripts', 'enqueueCss', 11);
+add_action('wp_enqueue_scripts', 'enqueueCss', 10000);
 add_action('check_admin_referer', 'logoutWithoutConfirm', 10, 2);
