@@ -1,3 +1,121 @@
 .wpuf-user-loggedin {
   text-align: center;
 }
+
+/* Account Page */
+.wpuf-dashboard-container {
+  max-width: var(--mlt-max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: 768px) { 
+    flex-direction: row;
+  }
+}
+
+body .wpuf-menu-item.active a {
+  font-weight: bold !important;
+  color: var(--mlt-colour-secondary) !important;
+}
+
+.wpuf-menu-item {
+  border: 1px solid var(--mlt-colour-accent-dark);
+  line-height: 1;
+  display: block!important;
+
+  &::after {
+    content: "" !important;
+  }
+
+  a {
+    font-weight: normal !important;
+    padding: var(--mlt-spacing-md) !important;
+    width: 100%;
+    display: block;
+
+    @media only screen and (min-width: 768px) { 
+      padding: var(--mlt-spacing-lg) !important;
+    }
+  }
+
+  &.active {
+    background-color: var(--mlt-colour-accent-light);
+
+    a {
+      font-weight: bold !important;
+      color: var(--mlt-colour-secondary) !important;
+    }
+  }
+
+
+  &:first-of-type {
+    border-top-left-radius: var(--mlt-border-radius-medium);
+    border-top-right-radius: var(--mlt-border-radius-medium);
+  }
+
+  &:last-of-type {
+    border-bottom-left-radius: var(--mlt-border-radius-medium);
+    border-bottom-right-radius: var(--mlt-border-radius-medium);
+  }
+
+  &:not(:first-of-type) {
+    border-top: 0;
+  }
+}
+
+.wpuf-dashboard-container .items-table-container {
+  width: 100%;
+  float: none;
+  border-radius: var(--mlt-border-radius-medium);
+  border: 1px solid var(--mlt-colour-accent-dark);
+  margin-bottom: var(--mlt-spacing-lg);
+
+  .items-table {
+    width: 100%;
+    float: none;
+    border: none;
+    
+    tr {
+      border: none;
+    }
+
+    tr:not(:last-of-type) {
+      border-bottom: 1px solid var(--mlt-colour-accent-dark);
+    }
+
+    td[data-label="Options: "] {
+      width: 100px;
+    }
+  }
+}
+
+.wpuf-dashboard-content {
+  @media only screen and (min-width: 768px) {
+    padding: 0 var(--mlt-spacing-lg) !important;
+  }
+
+  .items-list-header th {
+    line-height: 1;
+    padding: var(--mlt-spacing-md) !important;
+
+    @media only screen and (min-width: 768px) { 
+      padding: var(--mlt-spacing-lg) !important;
+    }
+  }
+}
+
+.wpuf-posts-delete, 
+.wpuf-posts-edit {
+  padding: 0 !important;
+}
+
+.wpuf-pagination {
+  display: flex;
+  margin-bottom: var(--mlt-spacing-lg) !important;
+}
+
+.page-numbers {
+  padding: var(--mlt-spacing-md) !important;
+  line-height: 1;
+}
