@@ -32,5 +32,15 @@ function logoutWithoutConfirm($action)
 	}
 }
 
+function changePostLabels( $labels ) {
+	if (is_admin()) {
+		return $labels;
+	}
+
+	$labels->name = 'My Letters';
+	return $labels;
+}
+
 add_action('wp_enqueue_scripts', 'enqueueCss', 10000);
 add_action('check_admin_referer', 'logoutWithoutConfirm', 10, 2);
+add_filter('post_type_labels_post', 'changePostLabels');
