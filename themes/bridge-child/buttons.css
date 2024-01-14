@@ -12,19 +12,25 @@
   background-color: var(--mlt-colour-secondary) !important;
 }
 
+.wpuf-button,
 .wpuf-submit-button,
+.btn,
 #wp-submit {
-  border-style: solid;
+  border-style: solid !important;
+  border-width: 2px;
   border-color: var(--mlt-colour-secondary) !important;
   background-color: var(--mlt-colour-secondary) !important;
   color: var(--mlt-colour-primary) !important;
-  padding: 1rem 1.5rem;
-  border-radius: 100px;
-  font-weight: bold;
-}
+  padding: var(--mlt-spacing-md) var(--mlt-spacing-lg) !important;
+  border-radius: 100px !important;;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  cursor: pointer;
 
-.wpuf-submit-button:hover {
-  background-color: var(--mlt-colour-primary) !important;
-  color: var(--mlt-colour-secondary) !important;
-  font-weight: bold;
+
+  &:hover {
+    background-color: var(--mlt-colour-primary) !important;
+    color: var(--mlt-colour-secondary) !important;
+    font-weight: bold;
+  }
 }

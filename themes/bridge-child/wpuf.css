@@ -120,3 +120,8 @@ body .wpuf-menu-item.active a {
   padding: var(--mlt-spacing-md) !important;
   line-height: 1;
 }
+
+.wpuf-insert-image {
+  display: inline-block;
+  padding: var(--mlt-spacing-sm) var(--mlt-spacing-md) !important;
+}
