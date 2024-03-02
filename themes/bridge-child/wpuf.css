@@ -3,8 +3,8 @@
 }
 
 /* Account Page */
-.wpuf-dashboard-container {
-  max-width: var(--mlt-max-width);
+body .wpuf-dashboard-container {
+  max-width: var(--mlt-max-width) !important;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -119,4 +119,9 @@ body .wpuf-menu-item.active a {
 .page-numbers {
   padding: var(--mlt-spacing-md) !important;
   line-height: 1;
+}
+
+.wpuf-insert-image {
+  display: inline-block;
+  padding: var(--mlt-spacing-sm) var(--mlt-spacing-md) !important;
 }

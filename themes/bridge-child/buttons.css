@@ -5,26 +5,32 @@
 .has-black-color,
 .has-black-color:hover,
 .wp-block-button .wp-block-button__link:hover {
-  border-color: var(--mlt-colour-secondary) !important;
+  border-color: var(--mlt-colour-primary) !important;
 }
   
 .has-black-background-color {
-  background-color: var(--mlt-colour-secondary) !important;
-}
-
-.wpuf-submit-button,
-#wp-submit {
-  border-style: solid;
-  border-color: var(--mlt-colour-secondary) !important;
-  background-color: var(--mlt-colour-secondary) !important;
-  color: var(--mlt-colour-primary) !important;
-  padding: 1rem 1.5rem;
-  border-radius: 100px;
-  font-weight: bold;
-}
-
-.wpuf-submit-button:hover {
   background-color: var(--mlt-colour-primary) !important;
-  color: var(--mlt-colour-secondary) !important;
-  font-weight: bold;
+}
+
+.wpuf-button,
+.wpuf-submit-button,
+.wp-element-button,
+.btn,
+.qbutton,
+#wp-submit {
+  border: 1px solid var(--mlt-colour-primary) !important;
+  background-color: var(--mlt-colour-primary) !important;
+  color: var(--mlt-colour-accent) !important;
+  border-radius: 100px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  height: auto !important;
+  line-height: auto !important;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent !important;
+    color: var(--mlt-colour-primary) !important;
+    font-weight: bold;
+  }
 }
