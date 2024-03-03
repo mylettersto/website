@@ -16,7 +16,7 @@ body .wpuf-dashboard-container {
 
 body .wpuf-menu-item.active a {
   font-weight: bold !important;
-  color: var(--mlt-colour-secondary) !important;
+  color: var(--mlt-colour-primary) !important;
 }
 
 .wpuf-menu-item {
@@ -44,7 +44,7 @@ body .wpuf-menu-item.active a {
 
     a {
       font-weight: bold !important;
-      color: var(--mlt-colour-secondary) !important;
+      color: var(--mlt-colour-primary) !important;
     }
   }
 
