@@ -20,7 +20,7 @@
 #wp-submit {
   border: 1px solid var(--mlt-colour-primary) !important;
   background-color: var(--mlt-colour-primary) !important;
-  color: var(--mlt-colour-accent) !important;
+  color: var(--mlt-colour-accent-light) !important;
   border-radius: 100px !important;
   font-weight: bold !important;
   text-decoration: none !important;

@@ -567,7 +567,7 @@
 		
 						header.fixed_hiding .q_logo a,
 				header.fixed_hiding .q_logo{
-				max-height: 0px;
+				max-height: 31px;
 				}
 				
 					@media only screen and (max-width: 1000px){
@@ -590,7 +590,7 @@
 		
 		
 					nav.main_menu > ul > li > a{
-			 color: #000000; 						 font-size: 12px; 									 font-weight: 400; 						 text-transform: initial; 			}
+			 color: #000000; 						 font-size: 16px; 									 font-weight: 400; 						 text-transform: initial; 			}
 
 		
 		
@@ -701,11 +701,11 @@
 			.footer_bottom p,
 			.footer_bottom_holder p,
 			.footer_bottom span:not(.q_social_icon_holder):not(.fa-stack):not(.qode_icon_font_elegant){
-			font-size: 12px;letter-spacing: 0px;font-weight: 400;text-transform: initial			}
+			font-size: 16px;letter-spacing: 0px;font-weight: 400;text-transform: initial			}
 		
 					.footer_bottom_holder a,
 			.footer_bottom_holder ul li a{
-			font-size: 12px;letter-spacing: 0px;font-weight: 400;text-transform: initial			}
+			font-size: 16px;letter-spacing: 0px;font-weight: 400;text-transform: initial			}
 		
 					.footer_bottom, .footer_bottom span, .footer_bottom p, .footer_bottom p a, .footer_bottom a, #lang_sel_footer ul li a,
 			footer #lang_sel > ul > li > a,
@@ -831,11 +831,11 @@
 		
 			nav.popup_menu ul li a,
 			nav.popup_menu ul li h6{
-			 color: ##2F2E41; 																		 text-transform: initial; 						}
+			 color: #5a0ce4; 																		 text-transform: initial; 						}
 		
 					.popup_menu.opened .line:after,
 			.popup_menu.opened .line:before{
-			background-color: ##2F2E41;
+			background-color: #5a0ce4;
 			}
 
 		
